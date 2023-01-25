@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+#top {
+  height: 100vh;
+  background-image: url(Images/bg.png);
+  background-position: center;
+  background-size: cover;
+}
+.container {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+.logo {
+  margin-top: 3px;
+  width: 100px;
+}
+.header-text {
+  max-width: 350px;
+  margin-top: 140px;
+}
+h1 {
+  font-size: 34px;
+}
+.square {
+  height: 12px;
+  width: 12px;
+  display: inline-block;
+  background: rgb(36, 159, 36);
+  margin: 15px 0;
+}
+.common-btn {
+  padding: 19px 38px;
+  background-color: transparent;
+  outline: none;
+  border: 3px solid #10d34e;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 15px;
+  color: blue;
+  /* box-shadow: 1px 1px 10px blue;*/
+}
+.common-btn:hover {
+  color: #10d34e;
+}
+
+.common-btn:active {
+  background-color: #148aff;
+}
+p {
+  font-size: 15px;
+  line-height: 18px;
+  color: rgb(96, 96, 96);
+}
+.header-text button {
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
+.line1 {
+  width: 15px;
+  height: 15px;
+  background: rgb(36, 159, 36);
+  display: inline-block;
+}
+.line2 {
+  width: 80px;
+  height: 1px;
+  background: rgb(36, 159, 36);
+  display: inline-block;
+}
+.line3 {
+  width: 60px;
+  height: 1px;
+  background: rgb(36, 159, 36);
+  display: inline-block;
+}
+.line {
+  line-height: 8px;
+}
+
+#nav-bar {
+  width: 250px;
+  height: 100vh;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: rgb(36, 159, 36);
+  z-index: 1;
+  transition: 0.5s;
+}
+nav ul li {
+  list-style: none;
+  margin: 50px 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+#menuBtn {
+  width: 50px;
+  position: fixed;
+  right: 65px;
+  top: 35px;
+  z-index: 2;
+  cursor: pointer;
+}
+#about,
+#brands {
+  padding: 100px 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.about-jeans1 {
+  flex-basis: 50%;
+}
+.about-jeans1 img {
+  width: 100%;
+}
+.about-jeans2 {
+  flex-basis: 50%;
+  text-align: right;
+}
+.about-text {
+  max-width: 500px;
+  margin-right: 100px;
+  display: inline-block;
+}
+.about-text h2 {
+  margin: 50px 0 10px;
+  font-size: 20px;
+  font-style: italic;
+}
+.about-text h2 {
+  font-size: 20px;
+  font-style: italic;
+  color: #10d34e;
+}
+
+#recycle {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.recycle-row {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.recycle-co1umn {
+  flex-basis: 25%;
+  text-align: 100px;
+}
+.recycle-co1umn img {
+  width: 100px;
+}
+.recycle-co1umn h4 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.recycle-btn {
+  margin: 80px auto 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.recycle-btn .line {
+  text-align: right;
+  display: inline-block;
+  margin-right: 25px;
+}
+
+#sustainability {
+  padding: 100px 0;
+}
+.sus-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.sus-col2 {
+  flex-basis: 50%;
+}
+.sus-col2 img {
+  width: 100%;
+}
+.sus-col1 {
+  flex-basis: 50%;
+}
+.sus-text {
+  max-width: 350px;
+}
+.sus-text button {
+  margin: 30px 0;
+}
+#brands button {
+  margin: 30px 0;
+}
+#registration {
+  margin-left: 10px;
+}
+.registration-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.registration-col1 {
+  flex-basis: 50%;
+}
+.registration-col2 img {
+  width: 100%;
+}
+form {
+  max-width: 350px;
+  margin: 30px 0;
+}
+
+form h1 {
+  font-size: 45px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 30px 0;
+}
+form input {
+  font-size: 16px;
+  padding: 12px 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid #10d34e;
+  border-radius: 5px;
+  outline: none;
+}
+form button {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 30px 0;
+  padding: 10px 15px;
+  width: 40%;
+  border: 0;
+  border-radius: 16px;
+  background-color: #10d34e;
+  color: white;
+  transition: background-color 1s, color 1s, box-shadow 1s, opacity 1s;
+}
+form button:hover {
+  color: blue;
+  opacity: 0.8;
+  background-color: white;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
