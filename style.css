@@ -219,7 +219,7 @@ a::after {
 
 .footer-distributed {
   background: rgb(150, 207, 238);
-  box-shadow: 0 1px 1px 0 rgba(219, 240, 246, 0.12);
+  box-shadow: 0 1px 1px 0 rgba(152, 213, 228, 0.12);
   box-sizing: border-box;
   width: 100%;
   font: bold 16px sans-serif;
@@ -236,7 +236,7 @@ a::after {
 section {
   width: 100%;
   display: inline-block;
-  background: rgb(154, 194, 243);
+  background: rgb(234, 236, 239);
   height: 10%;
   text-align: center;
   font-size: 22px;
@@ -291,27 +291,25 @@ section {
 }
 
 .footer-distributed .footer-icons a {
-  display: inline-block;
+  /* display: inline-block; */
   width: 30px;
   height: 30px;
   cursor: pointer;
-  background-color: #d3d1db;
+  /* background-color: #d3d1db; */
   border-radius: 2px;
 
   font-size: 20px;
   color: #ffffff;
   text-align: center;
-  line-height: 35px;
-
-  margin-right: 3px;
-  margin-bottom: 5px;
-}
-.footer-icons img {
+  /* line-height: 35px; */
+ margin-right: 3px;
+  margin-bottom: 5px; 
+} 
+ .footer-icons img {
   
   width:30px;
-   height:30px
-}
-
+   height:30px } 
+   
 /* Footer Right */
 
 .footer-distributed .footer-right {
@@ -350,9 +348,9 @@ section {
   padding: 18px;
 }
 
-/* .footer-distributed ::-webkit-input-placeholder {
+ .footer-distributed ::-webkit-input-placeholder {
   color: #5c666b;
-} */
+} 
 
 /* .footer-distributed ::-moz-placeholder {
   color: #7154b8;
@@ -431,13 +429,7 @@ section {
   .footer-distributed form button {
     float: none;
    }
-  /* .footer-icons a {
-  display: block;
-  border: 1px solid var(--grey);
-  padding: 1rem;
-  border-radius: 35%;
-  margin: 10px; 
-} */
+ 
 
 
 
