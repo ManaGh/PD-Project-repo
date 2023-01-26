@@ -3,25 +3,25 @@
   padding: 0;
   font-family: sans-serif;
 }
+
 #top {
-  height: 130vh;
-  background-image: url(Images/bg.png);
+  height: 120vh;
+  background-image: url(/LastPage/Images/apparel-blue-jeans-casual-1082529-1024x683.jpg);
   background-position: center;
   background-size: cover;
   text-decoration: none;
-  text-align: left;
 }
 .container {
   margin-right: 100px;
   margin-left: 100px;
 }
-.logo {
-  margin-top: 3px;
-  width: 100px;
-}
+
 .top-text {
-  max-width: 350px;
-  margin-top: 140px;
+  padding-top: 300px;
+  margin-top: 0;
+  margin-left: 900px;
+  max-width: 400px;
+  text-align: left;
 }
 h1 {
   font-size: 34px;
@@ -42,8 +42,8 @@ h1 {
   cursor: pointer;
   font-size: 15px;
   color: blue;
-  /* box-shadow: 1px 1px 10px blue;*/
 }
+
 .common-btn:hover {
   color: #10d34e;
 }
@@ -56,9 +56,15 @@ p {
   line-height: 18px;
   color: rgb(96, 96, 96);
 }
-.top-text button {
+.header-text button {
   margin-top: 20px;
   margin-bottom: 60px;
+}
+#green {
+  color: rgb(36, 159, 36);
+}
+#blue {
+  color: blue;
 }
 .line1 {
   width: 15px;
@@ -67,13 +73,13 @@ p {
   display: inline-block;
 }
 .line2 {
-  width: 80px;
+  width: 110px;
   height: 1px;
   background: rgb(36, 159, 36);
   display: inline-block;
 }
 .line3 {
-  width: 60px;
+  width: 90px;
   height: 1px;
   background: rgb(36, 159, 36);
   display: inline-block;
@@ -82,12 +88,13 @@ p {
   line-height: 8px;
 }
 
-#about {
+#about,
+#brands {
+  background-color: white;
   padding: 100px 0;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  background-color: white;
 }
 .about-jeans1 {
   flex-basis: 50%;
@@ -120,12 +127,11 @@ p {
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: white;
-  text-align: center;
   text-decoration: none;
 }
 .recycle-row {
   width: 80%;
-  margin-right: auto;
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -154,4 +160,93 @@ p {
   text-align: right;
   display: inline-block;
   margin-right: 25px;
+}
+
+#sustainability {
+  padding: 100px 0;
+  background-color: white;
+  text-decoration: none;
+}
+.sus-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.sus-col2 {
+  flex-basis: 50%;
+}
+.sus-col2 img {
+  width: 100%;
+}
+.sus-col1 {
+  flex-basis: 50%;
+}
+.sus-text {
+  max-width: 350px;
+  text-align: left;
+}
+.sus-text button {
+  margin: 30px 0;
+}
+#brands button {
+  margin: 30px 0;
+}
+#registration {
+  margin-left: 1px;
+  background-color: white;
+  text-decoration: none;
+  text-align: left;
+}
+.registration-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.registration-col1 {
+  flex-basis: 50%;
+}
+.registration-col2 img {
+  width: 100%;
+}
+form {
+  max-width: 350px;
+  margin: 30px 0;
+  display: inline-block;
+}
+
+form h1 {
+  font-size: 45px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 30px 0;
+}
+form input {
+  font-size: 16px;
+  padding: 12px 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  outline: none;
+  box-sizing: border-box;
+  border: 2px solid #10d34e;
+  border-radius: 5px;
+  outline: none;
+}
+form button {
+  font-size: 17px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 100px;
+  padding: 10px 15px;
+  width: 40%;
+  border: 0;
+  border-radius: 16px;
+  background-color: #10d34e;
+  color: white;
+  transition: background-color 1s, color 1s, box-shadow 1s, opacity 1s;
+}
+form button:hover {
+  color: blue;
+  opacity: 0.8;
+  background-color: white;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
 }
