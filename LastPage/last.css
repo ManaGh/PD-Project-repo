@@ -3,25 +3,25 @@
   padding: 0;
   font-family: sans-serif;
 }
+
 #top {
-  height: 100vh;
-  background-image: url(Images/apparel-blue-jeans-casual-1082529-1024x683.jpg);
+  height: 120vh;
+  background-image: url(/LastPage/Images/apparel-blue-jeans-casual-1082529-1024x683.jpg);
   background-position: center;
   background-size: cover;
+  text-decoration: none;
 }
 .container {
   margin-right: 100px;
   margin-left: 100px;
 }
-.logo {
-  margin-top: 3px;
-  width: 100px;
-}
+
 .top-text {
   padding-top: 300px;
   margin-top: 0;
   margin-left: 900px;
   max-width: 400px;
+  text-align: left;
 }
 h1 {
   font-size: 34px;
@@ -42,11 +42,8 @@ h1 {
   cursor: pointer;
   font-size: 15px;
   color: blue;
-  /* box-shadow: 1px 1px 10px blue;*/
 }
-a {
-  padding-top: 350px;
-}
+
 .common-btn:hover {
   color: #10d34e;
 }
@@ -91,34 +88,9 @@ p {
   line-height: 8px;
 }
 
-#nav-bar {
-  width: 250px;
-  height: 100vh;
-  position: fixed;
-  right: 0;
-  top: 0;
-  background: rgb(36, 159, 36);
-  z-index: 1;
-  transition: 0.5s;
-}
-nav ul li {
-  list-style: none;
-  margin: 50px 20px;
-}
-nav ul li a {
-  text-decoration: none;
-  color: white;
-}
-#menuBtn {
-  width: 50px;
-  position: fixed;
-  right: 65px;
-  top: 35px;
-  z-index: 2;
-  cursor: pointer;
-}
 #about,
 #brands {
+  background-color: white;
   padding: 100px 0;
   display: flex;
   align-items: center;
@@ -138,6 +110,7 @@ nav ul li a {
   max-width: 500px;
   margin-right: 100px;
   display: inline-block;
+  text-align: left;
 }
 .about-text h2 {
   margin: 50px 0 10px;
@@ -153,6 +126,8 @@ nav ul li a {
 #recycle {
   padding-top: 50px;
   padding-bottom: 50px;
+  background-color: white;
+  text-decoration: none;
 }
 .recycle-row {
   width: 80%;
@@ -189,6 +164,8 @@ nav ul li a {
 
 #sustainability {
   padding: 100px 0;
+  background-color: white;
+  text-decoration: none;
 }
 .sus-row {
   display: flex;
@@ -206,6 +183,7 @@ nav ul li a {
 }
 .sus-text {
   max-width: 350px;
+  text-align: left;
 }
 .sus-text button {
   margin: 30px 0;
@@ -214,7 +192,10 @@ nav ul li a {
   margin: 30px 0;
 }
 #registration {
-  margin-left: 10px;
+  margin-left: 1px;
+  background-color: white;
+  text-decoration: none;
+  text-align: left;
 }
 .registration-row {
   display: flex;
@@ -254,7 +235,7 @@ form button {
   font-size: 17px;
   font-weight: bold;
   margin-top: 30px;
-  margin-bottom: 70px;
+  margin-bottom: 100px;
   padding: 10px 15px;
   width: 40%;
   border: 0;
