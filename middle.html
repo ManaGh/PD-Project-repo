@@ -1,42 +1,45 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="/style.css">
-<link rel="stylesheet" href="./middle-page/styles.css" />
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="./middle-page/styles.css" />
+  </head>
+  <header>
+    <input type="checkbox" id="ham-menu" />
+    <label for="ham-menu">
+      <div class="hide-des">
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+      </div>
+    </label>
 
-</head>
-<header>
-<input type="checkbox" id="ham-menu">
-<label for="ham-menu">
-  <div class="hide-des">
-    <span class="menu-line"></span>
-    <span class="menu-line"></span>
-    <span class="menu-line"></span>
-    <span class="menu-line"></span>
-    <span class="menu-line"></span>
-    <span class="menu-line"></span>
-  </div>
-
-</label>
-
-<div class="ham-menu">
-  <ul class="centre-text bold-text">
-    <li>Home</li>
-    <br>
-    <li>Article</li>
-    <br>
-    <li>Gallery</li>
-    <br>
-    <li>Services</li>
-    <br>
-    <li>Contact us</li>
-
-  </ul>
-</div>
-</header>
-<body>
-  <div class="parent">
+    <div class="ham-menu">
+      <ul class="centre-text bold-text">
+        <li><a class="nav-link" href="index.html">Home</a></li>
+        <br />
+        <li><a class="nav-link" href="middle.html"> Article</a></li>
+        <br />
+        <li><a class="nav-link" href="#">Gallery</a></li>
+        <br />
+        <li><a class="nav-link" href="last.html">More Info</a></li>
+        <br />
+        <li><a class="nav-link" href="#">Contact Us</a></li>
+      </ul>
+    </div>
+  </header>
+  <body>
+    <div class="parent">
       <div class="div1">
         <h1>The denim blues</h1>
         <p>
@@ -121,50 +124,37 @@
       />
     </div>
 
+    <section>
+      <footer class="footer-distributed">
+        <div class="footer-left">
+          <h3>Recycle Jeans</h3>
+          <p class="footer-company-name">Blue Jeans</p>
+          <p class="footer-links">
+            <br />
+            <a href="#">Home</a>
+            <a href="#">policy</a>
+            <a href="#">Contact</a>
+          </p>
 
-<section>
-	
-<footer class="footer-distributed">
+          <div class="footer-icons">
+            <a href="#"><img src="iinstagram.png" /></a>
 
-			<div class="footer-left">
+            <a href="#"><img src="faceboook.png" /></a>
 
-				<h3>Recycle Jeans</h3>
+            <a href="#"><img src="GitHub.png" /></a>
+          </div>
+        </div>
 
-				<p class="footer-links">
-					<a href="#">Home</a>
-					·
-					<a href="#">policy</a>
-					.
-					<a href="#">Contact</a>
-				</p>
+        <div class="footer-right">
+          <p>Contact Us</p>
 
-				<p class="footer-company-name">Recycle Jeans</p>
-
-				<div class="footer-icons">
-
-					<a href="#"><i class="fa fa-facebo" ></i><icon src="/Popular-Logo-facebook-icon-png.png" width="35px" height="35px"></a>
-					<a href="#"><i class="fa fa-intagram" ></i><icon src="/insta.png" width="50px" height="50px" ></a>
-					<a href="#"><i class="fa fa-github"></i><icon src="/download.png"width="50px" height="50px" ></a>
-
-				</div>
-
-			</div>
-
-			<div class="footer-right">
-
-				<p>Contact Us</p>
-
-				<form action="#" method="post">
-
-					<input type="text" name="email" placeholder="Email">
-					<textarea name="message" placeholder="Message"></textarea>
-					<button>Send</button>
-
-				</form>
-
-			</div>
-
-		</footer>
-  </section>
-</body>
+          <form action="#" method="post">
+            <input type="text" name="email" placeholder="Email" />
+            <textarea name="message" placeholder="Message"></textarea>
+            <button>Send</button>
+          </form>
+        </div>
+      </footer>
+    </section>
+  </body>
 </html>

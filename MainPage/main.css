@@ -155,3 +155,7 @@ p {
   display: inline-block;
   margin-right: 25px;
 }
+
+li a {
+  text-decoration: none;
+}

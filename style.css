@@ -27,7 +27,8 @@ html {
   font-size: 10px;
   color: var(--text-color);
   font-weight: normal;
-  font-family: sans-serif;
+  font-family: "Montserrat", sans-serif;
+
   background-color: var(--home-bg-color);
 }
 
@@ -156,40 +157,42 @@ p {
   line-height: 1.5em;
   word-spacing: 0.5em;
   letter-spacing: 0.1em;
-  font-family: "OpenSansCondensed-Light";
+  font-family: "Montserrat", sans-serif;
 }
 a {
   font-size: 1.6rem;
   line-height: 1.5em;
-  word-spacing: 0.5em;
-  letter-spacing: 0.1em;
-  font-family: "OpenSansCondensed-Light";
+  /* word-spacing: 0.5em;
+  letter-spacing: 0.1em; */
+  font-family: "Montserrat", sans-serif;
+
   display: inline;
   font-weight: bold;
   padding: 7px;
   color: var(--icon-hover-bg);
 }
-a::after {
+/* a::after {
   content: "\e806";
   display: inline-block;
   font-family: fontello;
   padding: 5px;
   font-size: 1.6rem;
   transform: rotate(-90deg);
-}
+} */
 .text {
   font-size: 2.5rem;
   line-height: 1.5em;
   word-spacing: 0.5em;
   letter-spacing: 0.1em;
-  font-family: "OpenSansCondensed-Bold", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .title {
   font-size: 3rem;
   line-height: 1.5em;
   word-spacing: 0.5em;
   letter-spacing: 0.1em;
-  font-family: "OpenSansCondensed-Bold", sans-serif;
+  font-family: "Montserrat", sans-serif;
+
   color: var(--icon-hover-bg);
   padding: 10px;
 }
@@ -207,15 +210,21 @@ a::after {
   font-weight: bold;
 }
 
+.nav-link {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: bold;
+  font-size: 5rem;
+  font-family: sans-serif;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav-link:hover {
+  color: navy;
+}
 /*footer*/
 
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
-
-* {
-  font-family: Roboto;
-}
-
-
 
 .footer-distributed {
   background: rgb(150, 207, 238);
@@ -226,11 +235,10 @@ a::after {
   text-align: left;
   padding: 50px 60px 40px;
   overflow: hidden;
- /* position: absolute; */
+  /* position: absolute; */
   bottom: 0;
   width: 100%;
   height: 36rem;
-
 }
 
 section {
@@ -302,14 +310,14 @@ section {
   color: #ffffff;
   text-align: center;
   /* line-height: 35px; */
- margin-right: 3px;
-  margin-bottom: 5px; 
-} 
- .footer-icons img {
-  
-  width:30px;
-   height:30px } 
-   
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+.footer-icons img {
+  width: 30px;
+  height: 30px;
+}
+
 /* Footer Right */
 
 .footer-distributed .footer-right {
@@ -348,9 +356,9 @@ section {
   padding: 18px;
 }
 
- .footer-distributed ::-webkit-input-placeholder {
+.footer-distributed ::-webkit-input-placeholder {
   color: #5c666b;
-} 
+}
 
 /* .footer-distributed ::-moz-placeholder {
   color: #7154b8;
@@ -428,9 +436,5 @@ section {
 
   .footer-distributed form button {
     float: none;
-   }
- 
-
-
-
+  }
 }
